@@ -1,0 +1,21 @@
+/* pages/user/user.wxss */
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 150rpx;
+}
+.user image {
+    width: 250rpx;
+    height: 250rpx;
+    border-radius: 50%;
+}
+.user input {
+    height: 50rpx;
+    width: 400rpx;
+    padding: 10rpx 30rpx;
+    margin-top: 90rpx;
+    border: 2rpx solid #ccc;
+    border-radius: 30rpx;
+}

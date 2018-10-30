@@ -1,0 +1,6 @@
+<!--pages/user/user.wxml-->
+<view class="user">
+    <!-- <image src="/images/sls.png"/> -->
+    <image src="{{isEmpty?'/images/sls.png':imgUrl}}" catchtap="c_click"/>
+    <input type="text" placeholder="一句话描述你自己" bindblur="onBlur" value="{{value}}"/>
+</view>

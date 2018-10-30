@@ -1,0 +1,35 @@
+/* components/item/item.wxss */
+
+.item {
+    /* height: 250rpx; */
+    box-sizing: border-box;
+    padding: 20rpx;
+    display: flex;
+    /* align-items: center; */
+    border-bottom: 2rpx solid #ccc;
+}
+.item image {
+    width: 210rpx;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30rpx;
+    margin-left: 15rpx;
+}
+.title {
+    width: 450rpx;
+}
+.title text:last-of-type {
+    float: right;
+    color: red;
+    font-weight: bold;
+}
+.director {
+    color: #555;
+    font-size: 12pt;
+}
+view.director {
+    margin: 15rpx 0;
+}

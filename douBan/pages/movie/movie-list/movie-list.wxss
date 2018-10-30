@@ -1,0 +1,10 @@
+/* pages/movie/movie-list/movie-list.wxss */
+.type {
+    width: 100%;
+    height: 110rpx;
+    font-size: 17pt;
+    color: #555;
+    text-align: center;
+    line-height: 110rpx;
+    box-shadow: 0 5rpx 1rpx 1rpx rgba(0, 0, 0, 0.123);
+}

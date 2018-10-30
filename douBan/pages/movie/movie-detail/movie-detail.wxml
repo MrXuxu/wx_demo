@@ -1,0 +1,16 @@
+<!--pages/movie/movie-detail/movie-detail.wxml-->
+<view class="head">
+    <image src="{{image}}" mode="widthFix"/>
+    <text class="title">{{title}}({{year}})</text>
+    <view class="rating">
+        <text>评分：{{average}}</text>
+        <text>导演：{{director}}</text>
+        <text>主演：{{casts_name}}</text>
+    </view>
+</view>
+<view class="content">
+    <text>摘要:</text>
+    <text class="about">
+        {{summary}}
+    </text>
+</view>

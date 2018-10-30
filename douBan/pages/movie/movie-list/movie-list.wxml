@@ -1,0 +1,5 @@
+<!--pages/movie/movie-list/movie-list.wxml-->
+<view class="type">{{g_title}}</view>
+<block wx:for="{{movies}}" wx:key="">
+    <m-item item="{{item}}"></m-item>
+</block>

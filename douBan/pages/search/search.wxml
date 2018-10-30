@@ -1,0 +1,9 @@
+<view class="search">
+    <icon type="search" />
+    <input focus="{{true}}" placeholder="无双、影" bindconfirm="onConfirm"/>
+</view>
+<view class="result">
+    <block wx:for="{{movies}}" wx:key="">
+        <m-item item="{{item}}"></m-item>
+    </block>
+</view>

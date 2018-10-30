@@ -1,0 +1,12 @@
+<!--components/item/item.wxml-->
+<view class="item" catchtap="onClick" data-id="{{item.id}}">
+    <image src="{{item.image}}" mode="widthFix"/>
+    <view class="about">
+        <view class="title">
+            <text>{{item.title}}</text>
+            <text>{{item.average}}</text>
+        </view>
+        <view class="director"><text>{{item.title}}</text><text class="time">({{item.year}})</text></view>
+        <text class="director">导演: {{item.director}}</text>
+    </view>
+</view>

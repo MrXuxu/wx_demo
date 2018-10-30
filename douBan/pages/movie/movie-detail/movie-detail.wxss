@@ -1,0 +1,38 @@
+/* pages/movie/movie-detail/movie-detail.wxss */
+.head {
+    display: flex;
+    flex-direction: column;
+    padding: 50rpx 70rpx;
+    box-sizing: border-box;
+    align-items: center;
+}
+.head image {
+    width: 100%;
+}
+.title {
+    font-size: 18pt;
+    margin-top: 30rpx;
+    margin-bottom: 30rpx;
+}
+.rating {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* text-align: left; */
+    font-size: 11pt;
+    color: #555;
+}
+.rating text:nth-of-type(2) {
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+}
+
+.content {
+    padding: 0 70rpx;
+    box-sizing: border-box;
+}
+.about {
+    text-indent: 1rem;
+    font-size: 11pt;
+    color: #555;
+}

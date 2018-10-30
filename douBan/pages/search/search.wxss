@@ -1,0 +1,14 @@
+/* pages/search/search.wxss */
+.search {
+    display: flex;
+    align-items: center;
+    padding: 0 10rpx;
+    box-sizing: border-box;
+    background-color: #ddd;
+    height: 120rpx;
+
+}
+.search input {
+    width: 100%;
+    padding-left: 20rpx;
+}

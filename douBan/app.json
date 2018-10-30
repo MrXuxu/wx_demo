@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/user/user",
+    "pages/search/search",
+    "pages/index/index",
+    "pages/movie/movie-detail/movie-detail",
+    "pages/movie/movie-list/movie-list"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#35495e",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#2c2c2c",
+    "backgroundColor": "#fff",
+    "position": "bottom",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "榜单",
+        "iconPath": "/images/rank.png",
+        "selectedIconPath": "/images/rank_hl.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "/images/search.png",
+        "selectedIconPath": "/images/search_hl.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/images/user.png",
+        "selectedIconPath": "/images/user_hl.png"
+      }
+    ]
+  }
+}
